@@ -7,9 +7,10 @@ set +x
 #
 # type foo >/dev/null && echo command found || echo command not found
 #
-# Dependency:
+# Usage:
+# $ . ./ianm_setenv.sh
 #
-# Last update: 10 August 2019 12:42:35
+# Last updated: 10 August 2019 12:42:35
 # ------------------------------------------------------------------
 
 function header
@@ -56,7 +57,8 @@ function blanklines
 # ------------------------------------------------------------------
 
 # ------------------------------------------------------------------
-# Main routine start here
+# SCRIPT BODY
+# Main routine starts here
 # ------------------------------------------------------------------
 blanklines 2
 myscript=ian.sh
