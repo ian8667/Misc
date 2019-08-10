@@ -61,7 +61,7 @@ function blanklines
 # Main routine starts here
 # ------------------------------------------------------------------
 blanklines 2
-myscript=ian.sh
+myscript=ianm_setenv.sh
 header "Running script: $myscript to customize my shell"
 
 # 1.
